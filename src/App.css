@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+body{
+ 
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+  
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Assuming you want the height of the whole viewport */
+}
+
+.app_header {
+  height: 150px; /* The fixed height for the first "row" */
+}
+
+.app_main {
+  flex-grow: 1; /*   Let the main content take the remaining space */
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 8%;
+  
+}
+.task_column{
+  width: 33.33%;
+  margin-left: 20px;
+}
